@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="D:/Pribadi/Code/SQA/sanber_diet/src/test/java/com/gedha/AktifitasSehariHariTest.java">
+        <classes>
+            <class name="com.gedha.AktifitasSehariHariTest">
+                <methods>
+                    <include name="testInputAktifitas"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="D:/Pribadi/Code/SQA/sanber_diet/src/test/java/com/gedha/WelcomeTest.java">
+        <classes>
+            <class name="com.gedha.WelcomeTest">
+                <methods>
+                    <include name="testInputWelcome"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
